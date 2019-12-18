@@ -18,7 +18,7 @@
           <description>Nanoflow returning a String</description>
           <returnType type="String"></returnType>
     </property>
-      <property key="microflowFlag" type="boolean" defaultValue="false">
+      <property key="microflowFlag" type="boolean" defaultValue="true">
           <caption>Use microflow?</caption>
           <category>Data source</category>
           <description>Determines if we use a microflow or nanoflow</description>
