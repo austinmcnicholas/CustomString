@@ -12,6 +12,17 @@
           <description>Microflow returning a String</description>
           <returnType type="String"></returnType>
     </property>
+    <property key="sourceNF" type="nanoflow" required="false">
+          <caption>Source Nanoflow</caption>
+          <category>Data source</category>
+          <description>Nanoflow returning a String</description>
+          <returnType type="String"></returnType>
+    </property>
+      <property key="microflowFlag" type="boolean" defaultValue="false">
+          <caption>Use microflow?</caption>
+          <category>Data source</category>
+          <description>Determines if we use a microflow or nanoflow</description>
+    </property>
     <property key="renderHTML" type="boolean" defaultValue="false">
           <caption>Render value as HTML</caption>
           <category>Data source</category>
